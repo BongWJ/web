@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <title>web tutorial - chat</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes, target-densitydpi=medium-dpi">
+  <link rel="stylesheet" href="style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R54TSCV96K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R54TSCV96K');
+  </script>
+</head>
+<body>
+  <h1><a href="web_tutorial_index.html">Main</a></h1>
+  <div id="grid">
+    <div id="pagelist">
+      <ol>
+        <li><a href="web_tutorial_comment.html">comment</a></li>
+        <li><a href="web_tutorial_video.html" >video</a></li>
+        <li><a href="web_tutorial_chat.html" id="active">chat</a></li>
+      </ol>
+    </div>
+    <div id="contents">
+      <h2>Chat</h2>
+      <p>
+        - 방문자와 채팅 기능. <a href="https://www.tawk.to/" target="_blank" title="html5 speicification">tawk</a> 이용
+        <br><br>
+        - 우측하단 구석에 있는거 누르면 채팅 가능
+      </p>
+    </div>
+  </div>
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5fa349a8fe038e7c95aa1725/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>

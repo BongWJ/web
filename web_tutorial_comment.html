@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title>web tutorial - comment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=yes, target-densitydpi=medium-dpi">
+  <link rel="stylesheet" href="style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R54TSCV96K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-R54TSCV96K');
+  </script>
+</head>
+<body>
+  <h1><a href="web_tutorial_index.html">Main</a></h1>
+  <div id="grid">
+    <div id="pagelist">
+      <ol>
+        <li><a href="web_tutorial_comment.html" id="active">comment</a></li>
+        <li><a href="web_tutorial_video.html" >video</a></li>
+        <li><a href="web_tutorial_chat.html">chat</a></li>
+      </ol>
+    </div>
+    <div id="contents">
+      <h2>Comment</h2>
+      <p>
+        - <a href="https://disqus.com/" target="_blank" title="html5 speicification">Disqus</a>를 이용해 댓글 기능 추가. <strong>글씨 강조 스트롱 <u>밑줄긋기</u> ㅋㅋ</strong> abcdef <u>그냥밑줄</u>
+        <br><br>이미지삽입
+        <img src="img.jpg" width="30%">
+      </p>
+      <p style="margin-top:45px;">
+        - 2번째 문단
+      </p>
+    </div>
+  </div>
+  <p>
+    <div id="disqus_thread"></div>
+    <script>
+
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://tutorial-13.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+</body>
+</html>
